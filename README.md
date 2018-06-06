@@ -4,9 +4,9 @@ Comme un simple exercice personnel, j'ai voulu créer un petit outil qui s'amél
 
 ## Ecrit avec
 
-[HTML 5](https://www.w3schools.com/html/html5_intro.asp)
-[Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript) : Utiliser pour gérer l'aspect logique un peux comme le backend mais en mois ;)
-[Material Design for Bootstrap](https://mdbootstrap.com/) : Utiliser pour gérer le UX
+* [HTML 5](https://www.w3schools.com/html/html5_intro.asp)
+* [Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript) : Utiliser pour gérer l'aspect logique un peux comme le backend mais en mois ;)
+* [Material Design for Bootstrap](https://mdbootstrap.com/) : Utiliser pour gérer le UX
 
 ## Auteur
 
