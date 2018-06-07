@@ -20,6 +20,41 @@
     <div class="container">
         <h1>Simple Issues Tracker <small>by Mahid</small></h1>
         <div class="jumbotron">
+            <h3>Add new issue :</h3>
+            <form id="issueInputForm">
+                                <!--Body-->
+                                <div class="md-form">
+                                    <input type="text" id="issueDescInput" class="form-control">
+                                    <label for="issueDescInput">Describe here</label>
+                                </div>
+                        
+                                <div class="md-form">
+                                        <select class="form-control" id="issueSeverityInput">
+                                                <option value="Low">Low</option>
+                                                <option value="Medium">Medium</option>
+                                                <option value="High">High</option>
+                                            </select>
+                                            
+                                    </div>
+                                    <div class="md-form">
+                                            <input type="text" id="issueAssignedToInput" class="form-control">
+                                            <label for="issueAssignedToInput">Enter Responsible</label>
+                                        </div>
+                                <div class="text-xs-center">
+                                    <button type="submit" class="btn btn-deep-orange">Add</button>
+                                </div>
+            </form>
+
+            
+        </div>
+
+        <div class="col-lg-12">
+            <div id="issueList">
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy <a href="https://about.me/mahid_hm">@mahid_hm</a></p>
             
         </div>
     </div>
