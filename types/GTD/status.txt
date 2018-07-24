@@ -1,0 +1,6 @@
+          <option>In</option>
+          <option>Next actions</option>
+          <option>Waiting for</option>
+          <option>Project</option>
+          <option>Some day/maybe</option>
+          <option>DONE</option>

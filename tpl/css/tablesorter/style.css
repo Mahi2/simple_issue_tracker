@@ -1,0 +1,39 @@
+/* TABLE */
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #eee; border: 1px solid white; /* TABLE HEADER */
+}
+table.tablesorter thead tr .header { /* COLUMNE HEADER */
+	background-image: url(bg.gif); background-repeat: no-repeat;
+	background-position: center right; cursor: pointer;
+}
+table.tablesorter tbody td { /* TABLE CONTENT */
+	vertical-align: middle;
+}
+table.tablesorter thead tr .headerSortUp { /* UP IMAGE */
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown { /* DOWN IMAGE */
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, 
+table.tablesorter thead tr .headerSortUp {
+  background-color: lightgray; /* SELECTED COLUMNE */
+}
+/* SELECT & HOVER COLORS = RED #ffb7b7 - BLUE #a8d1ff - YELLOW #fff2a8 */
+::selection                         { background: #fff2a8; }
+::-moz-selection                    { background: #fff2a8; }
+table.tablesorter tbody tr:hover td { background: #fff2a8; /* LINE HOVER RULER */ }
+/* RESPONSIV */
+@media only screen and (min-width: 993px) { /* ONLY NO MOBILE */
+  table.tablesorter tbody td {
+    padding: 4px;
+  }
+}
+@media only screen and (max-width: 992px) { /* ONLY MOBILE */
+  table.tablesorter thead tr .header,
+  table.tablesorter thead tr .headerSortDown, 
+  table.tablesorter thead tr .headerSortUp {
+    background-position: center left;
+    padding-left: 20px;
+  }
+}
