@@ -20,7 +20,7 @@
     $PICK = 'yyyy.mm.dd'; // DEFAULT 'yyyy.mm.dd'
 
 //  Set Language to 'en' for english OR 'de' for german
-    $LANG = 'de'; // USE 'en' OR 'de'
+    $LANG = 'fr'; // USE 'en' OR 'de'
 
 //  Login Script Salt
     $SALT = '70YD1AK1vq'; // USE first value from URL https://randomkeygen.com/
