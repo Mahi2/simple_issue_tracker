@@ -1,6 +1,6 @@
 # Simple Issue Tracker 
 
-Comme un simple exercice personnel, j'ai voulu créer un petit outil qui s'améliorer au fur et à mesure en javascript pur (c'est-à-dire) sans aucun framework qui va permettre de tracker et signaler des erreurs, vulnérabilités d'une plateforme donnée. 
+Comme un simple exercice personnel, j'ai voulu créer un petit outil qui s'améliorer au fur et à mesure en javascript pur et php (c'est-à-dire) sans aucun framework qui va permettre de tracker et signaler des erreurs, vulnérabilités d'une plateforme donnée. 
 
 ## Ecrit avec
 

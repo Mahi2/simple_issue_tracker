@@ -47,13 +47,11 @@ $i18n["Search for"]                    = "Search for";
 $i18n["Nothing Found!"]                = "Nothing Found!";
 /* INFO */
 $i18n["INFORMATION"]                   = '<strong>
-A simple, single Person Bug and Issue Tracker 
-also for MoSCoW-Method</strong><br><br>
-This is a solo developer focused tracking tool.
-It has a modern UI making a very fluid user experience.
-It is designed to work without database, on cheap webspace or
-100% offline e.g. on localhost, so it is very fast.
+A simple Issue tracker based on the MoSCoW</strong><br><br><br><br>> method.
+It is a tracking tool focused on a single developer.
+It has a modern user interface making the user experience very fluid.
+It is designed to work without database, on cheap web space or 100% offline web space, for example on localhost, so it is very fast.
 Using it should be as simple as copying the script code.
-To run simply edit the config and start the index file.
+To run, simply edit the configuration and start the index file.
 ';
 /* EOF */
